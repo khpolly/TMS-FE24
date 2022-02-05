@@ -1,0 +1,121 @@
+@import url(/css/reset.css);
+.header{
+    background-color:rgba(0, 0, 0, 1) 
+    }
+.header__logo{
+    margin-left: 115.28px;
+    margin-top: 22.46px;
+}    
+.header__menu{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.main-banner{
+    background-image: url(/img/banner.png);
+    background-size:cover
+}
+.main-banner__logo{
+    margin: 170px 283px 270px 100px;
+}
+h1{
+    margin: 170px 433.38px 670px 424.12px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    }
+.main-banner__dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.main-banner__btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.contacts-sm{
+    background-color:rgba(248, 239, 239, 1);
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.contacts-sm__dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.main-info{
+    background-color: #E5E5E5;
+}
+.main-info__bookmarks__tab{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.main-info__bookmarks__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    
+}
+.main-info__btn{
+    background-color: rgba(236, 121, 121, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.benefits__title{
+    margin: 10px 15px 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+.benefits__dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px; 
+}
+.benefits__list__item__name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.benefits__list__item__dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.price__name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;   
+}
+.price_dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.review__title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+.reviews__dsc .reviews__quote__item .reviews__quote__name__post{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.reviews__quote__name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.examples{
+    background-image: url(/img/desing.png);
+}
+.examples__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+}
+.examples__dsc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.examples__btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}

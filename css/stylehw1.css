@@ -1,0 +1,7 @@
+.box1{
+    background: #B2D235; /* Цвет фона */
+    padding: 40px; /* Поля вокруг текста */
+    outline: 2px solid #fff; /* Параметры рамки */
+    outline-offset: -20px; /* Смещение рамки */
+}
+
