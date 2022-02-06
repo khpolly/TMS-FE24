@@ -7,6 +7,7 @@
     margin-top: 22.46px;
 }    
 .header__menu{
+    margin-top: 1px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
@@ -15,27 +16,31 @@
     background-size:cover
 }
 .main-banner__logo{
-    margin: 170px 283px 270px 100px;
+    margin-top: 306px;
+
 }
-h1{
-    margin: 170px 433.38px 670px 424.12px;
-    color: #ffffff;
+.main-banner__title{
+    margin-top: 433.88px;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     }
 .main-banner__dsc{
+    margin-top: 699px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
 }
 .main-banner__btn{
+    margin-top: 783px;
+    background-color: #EC7979;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 .contacts-sm{
     background-color:rgba(248, 239, 239, 1);
 }
-h2{
+.contacts-sm__title{
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
@@ -50,7 +55,7 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-h3{
+.main-info__title{
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
@@ -94,7 +99,7 @@ h3{
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
 }
-.reviews__dsc .reviews__quote__item .reviews__quote__name__post{
+.reviews__dsc .reviews__quote__item .reviews__quote__name__post .contacts__dsc{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
@@ -108,14 +113,38 @@ h3{
 .examples__title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    color: #ffffff;
+    color: #fff;
 }
 .examples__dsc{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
 }
 .examples__btn{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+}
+.contacts{
+    background-color: #E5E5E5;
+}
+.contacts__title{
+    margin-top: 4712px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+.contacts__btn{
+    margin-top: 414px;
+    background-color: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.footer{
+    margin-top: 5384px;
+    background-color: black;
+}
+.footer__autor{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #fff;
 }
