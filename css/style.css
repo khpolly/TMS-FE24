@@ -1,15 +1,22 @@
-@import url(/css/reset.css);
+*{
+    box-sizing: border-box;
+}
+.container__nav{
+    width: 1225px;
+    margin: 0 auto;
+}
 .header{
     background-color:rgba(0, 0, 0, 1) 
     }
 .header__logo{
-    margin-left: 115.28px;
-    margin-top: 22.46px;
+    margin-left: 115px;
+    margin-top: 22px;
 }    
-.header__menu{
+.header__menu__item{
     margin-top: 1px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    color: #fff;
 }
 .main-banner{
     background-image: url(/img/banner.png);
