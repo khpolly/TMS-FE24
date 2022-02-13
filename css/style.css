@@ -3,7 +3,7 @@
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -19,45 +19,51 @@ body {
 }
 
 /* Titles */
-h1 .title1 {
+h1,
+.title1 {
     font-size: 48px;
     line-height: 56px;
     font-weight: 500;
 }
 
-h2 .title2 {
+h2,
+.title2 {
     font-size: 36px;
     line-height: 42px;
     font-weight: 400;
 }
 
-h3 .title3 {
+h3,
+.title3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
     line-height: 56px;
     font-weight: 500;
 }
 
-h4 .title4 {
+h4,
+.title4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 33px;
     font-weight: 400;
 }
 
-h5 .title5 {
+h5,
+.title5 {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
 }
 
-h6 .title6 {
+h6,
+.title6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 18px;
     font-weight: 700;
 }
-
+/* Button */
 .btn1 {
     display: inline-block;
     width: 270px;
@@ -154,7 +160,7 @@ h6 .title6 {
 
 /* Main-banner */
 .main-banner {
-    background-image: url(/img/background.png);
+    background: url(/img/background.png) 50% 50% no-repeat;
     /* background-size: none; */
     margin-bottom: 2px;
 }
