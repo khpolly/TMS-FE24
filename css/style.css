@@ -169,10 +169,15 @@ h6,
     /* background-size: none; */
     margin-bottom: 2px;
 }
+.main-banner__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 .main-banner__img {
-    /* padding: 230px 0 170px;
-    margin-bottom: 73px; */
+    margin: 180px auto auto 170px;
+    
 }
 
 .main-banner__title {
@@ -202,7 +207,7 @@ h6,
     display: flex;
     justify-content: space-between;
     background-color: rgba(248, 239, 239, 1);
-    margin-bottom: 50px;
+    margin-bottom: 50px auto;
 
 }
 .dsc-title{
