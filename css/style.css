@@ -95,8 +95,12 @@ h6,
 
 /* Header */
 .header {
+    display: block;
+    margin: auto;
     background-color: rgba(0, 0, 0, 1);
     position: relative;
+    max-width: 1510px;
+    
 }
 
 .header__logo {
