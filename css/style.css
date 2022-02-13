@@ -306,6 +306,11 @@ h6,
 }
 
 /* examples of projects */
+.examples{
+    background: url(/img/desing.png) 50% 50% no-repeat;
+    color: #fff;
+}
+
 
 /* Contacts-form */
 
