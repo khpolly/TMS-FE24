@@ -215,28 +215,34 @@ h6,
 }
 
 /* contacts */
-.contacts-box {
+.contacts-box{
     display: flex;
     justify-content: space-between;
     background-color: rgba(248, 239, 239, 1);
-    margin-bottom: 50px auto;
+    margin-bottom: 50px ;
+    margin-left: -170px;
+    margin-right: -170px;
 
 }
 .dsc-title{
     display: flex;
     flex-direction: column;
+    padding-left: 170px;
 }
 
 .contacts__title {
     width: 470px;
     height: 60px;
     margin-bottom: 1px;
+    
 }
 
 .contacts__list {
     display: flex; 
     flex-direction: row;
     align-items: center;
+    
+    padding-right: 170px;
     
     
 
@@ -252,7 +258,7 @@ h6,
 .main-info__bookmarks{
     display: flex;
     justify-content: space-around;
-
+    margin-bottom: 50px;
 }
 
 .main-info__tab_1 {
@@ -292,6 +298,7 @@ h6,
 .benefits__box{
     display: block;
     justify-content: space-around;
+    margin-bottom: 58px;
 }
 
 .benefits__list {
@@ -329,7 +336,8 @@ h6,
 
 /* Reviews */
 .reviews__box{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     
 }
@@ -348,6 +356,7 @@ h6,
 .reviews__text {
     width: 370px;
     height: 180px;
+    
 }
 
 /* examples of projects */
@@ -361,8 +370,10 @@ h6,
 
 
 /* footer */
-.footer{
+.footer__box {
     background-color: black;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer__list{
