@@ -210,9 +210,9 @@ h6,
     width: 235px;
 }
 
-.main-banner__text:last-child {
+/* .main-banner__text:last-child {
     margin-bottom: 0;
-}
+} */
 
 /* contacts */
 .contacts-box{
