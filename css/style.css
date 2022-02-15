@@ -1,8 +1,9 @@
-.container{
+.container {
     height: 1500px;
     margin: 20px 10px auto;
 }
-.box_wrap{
+
+.box-wrap {
     position: relative;
     margin: 30px 0;
     height: 1000px;
@@ -11,20 +12,20 @@
 
 
 
-.box_home_1{
-    width: 1500px;
-	height: 100px;
-	background: green;
-	-moz-border-radius: 100px / 50px;
-	-webkit-border-radius: 100px / 50px;
-	border-radius: 100px / 50px;
+.box-home-1 {
+    width: 2500px;
+    height: 100px;
+    background: green;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
     position: absolute;
     top: 900px;
     margin: auto 20px;
 }
 
 
-.box_home_2{
+.box-home-2 {
     width: 250px;
     height: 300px;
     background: rgb(76, 54, 156);
@@ -32,8 +33,9 @@
     top: 600px;
     left: 750px;
 }
-.box_home_3{
-        width: 0px;
+
+.box-home-3 {
+    width: 0px;
     height: 250px;
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
@@ -43,114 +45,9 @@
     left: 750px;
     z-index: 3;
 }
-/* Забор */
-.box_home_4{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1000px;
-    
 
-}
-.box_home_5{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1025px;
-}
-.box_home_6{
-   width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1050px;
-}
-.box_home_7{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1075px;
-}
-.box_home_8{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1100px;
-}
-.box_home_9{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1125px;
-}
-.box_home_10{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1150px;
-}
-.box_home_11{
-    width: 20px;
-    height: 150px;
-    background: rgb(236, 40, 210);
-    position: absolute;
-    bottom: 100px;
-    left: 1175px;
-}
-/* Елка */
-.box_home_12{
-    width: 20px;
-    height: 200px;
-    background: rgb(61, 34, 8);
-    position: absolute;
-    bottom: 100px;
-    left: 1200px;
-}
-.box_home_13{
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid rgb(8, 85, 33);
-    position: absolute;
-    bottom: 300px;
-    right: 285px;
-}
-.box_home_14{
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid rgb(8, 85, 33);
-    position: absolute;
-    bottom: 370px;
-    right: 285px;
-}
-.box_home_15{
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid rgb(8, 85, 33);
-    position: absolute;
-    bottom: 445px;
-    right: 285px;
-}
 /* Для дома */
-.box_home_16{
+.box-home-16 {
     width: 20px;
     height: 150px;
     background: #f38c16;
@@ -159,7 +56,8 @@
     bottom: 415px;
     left: 780px;
 }
-.box_home_17{
+
+.box-home-17 {
     width: 76px;
     height: 170px;
     background: rgb(4, 4, 51);
@@ -167,7 +65,8 @@
     bottom: 100px;
     left: 781px;
 }
-.box_home_18{
+
+.box-home-18 {
     width: 15px;
     height: 15px;
     background: #3803fa;
@@ -179,7 +78,8 @@
     left: 836px;
     z-index: 4;
 }
-.box_home_19{
+
+.box-home-19 {
     width: 40px;
     height: 80px;
     background: #88d6ee;
@@ -188,7 +88,8 @@
     top: 698px;
     left: 890px;
 }
-.box_home_20{
+
+.box-home-20 {
     width: 40px;
     height: 40px;
     background: #88d6ee;
@@ -199,7 +100,8 @@
     /* z-index: 5; */
 
 }
-.box_home_21{
+
+.box-home-21 {
     width: 40px;
     height: 40px;
     background: #88d6ee;
@@ -207,9 +109,193 @@
     position: absolute;
     top: 738px;
     left: 934px;
-}   
+}
+
+
+/* Забор */
+.box-home-4 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 319px;
+    left: 1009px;
+}
+
+.box-home-5 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1025px;
+}
+
+.box-home-6 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1050px;
+}
+
+.box-home-7 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1075px;
+}
+
+.box-home-8 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1100px;
+}
+
+.box-home-9 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1125px;
+}
+
+.box-home-10 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1150px;
+}
+
+.box-home-11 {
+    width: 20px;
+    height: 150px;
+    background: rgb(236, 40, 210);
+    position: absolute;
+    bottom: 100px;
+    left: 1175px;
+}
+
+/* Елка */
+.box-home-12 {
+    width: 20px;
+    height: 200px;
+    background: rgb(61, 34, 8);
+    position: absolute;
+    bottom: 100px;
+    left: 1200px;
+}
+
+.box-home-13 {
+    
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(8, 85, 33);
+    position: absolute;
+    bottom: 300px;
+    right: 1210px;
+}
+
+.box-home-14 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(8, 85, 33);
+    position: absolute;
+    bottom: 370px;
+    right: 1210px;
+}
+
+.box-home-15 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(8, 85, 33);
+    position: absolute;
+    bottom: 445px;
+    right: 1210px;
+}
+
+/* Для дома */
+.box-home-16 {
+    width: 20px;
+    height: 150px;
+    background: #f38c16;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 415px;
+    left: 780px;
+}
+
+.box-home-17 {
+    width: 76px;
+    height: 170px;
+    background: rgb(4, 4, 51);
+    position: absolute;
+    bottom: 100px;
+    left: 781px;
+}
+
+.box-home-18 {
+    width: 15px;
+    height: 15px;
+    background: #3803fa;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 176px;
+    left: 836px;
+    z-index: 4;
+}
+
+.box-home-19 {
+    width: 40px;
+    height: 80px;
+    background: #88d6ee;
+    border: 4px solid black;
+    position: absolute;
+    top: 698px;
+    left: 890px;
+}
+
+.box-home-20 {
+    width: 40px;
+    height: 40px;
+    background: #88d6ee;
+    border: 4px solid black;
+    position: absolute;
+    top: 698px;
+    left: 934px;
+    /* z-index: 5; */
+
+}
+
+.box-home-21 {
+    width: 40px;
+    height: 40px;
+    background: #88d6ee;
+    border: 4px solid black;
+    position: absolute;
+    top: 738px;
+    left: 934px;
+}
+
 /* Солнышко */
-.box__sun{
+.box__sun {
     width: 0;
     height: 0;
     border-top: 300px solid #fffb00;
@@ -218,8 +304,9 @@
     top: 0;
     right: 0;
 }
+
 /* Тучки */
-.box_home_22{
+.box-home-22 {
     width: 218px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -230,7 +317,8 @@
     top: 67px;
     left: 54px;
 }
-.box_home_23{
+
+.box-home-23 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -241,7 +329,8 @@
     top: 138px;
     left: 141px;
 }
-.box_home_24{
+
+.box-home-24 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -252,7 +341,8 @@
     top: 14px;
     left: 141px;
 }
-.box_home_25{
+
+.box-home-25 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -264,7 +354,7 @@
     left: 247px;
 }
 
-.box_home_26{
+.box-home-26 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -275,7 +365,8 @@
     top: 187px;
     left: 510px;
 }
-.box_home_27{
+
+.box-home-27 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -286,7 +377,8 @@
     top: 117px;
     left: 510px;
 }
-.box_home_28{
+
+.box-home-28 {
     width: 168px;
     height: 92px;
     background: linear-gradient(to bottom right, blue, #a5bbd8);
@@ -297,11 +389,12 @@
     top: 153px;
     left: 579px;
 }
+
 /* Радуга */
-.box_home_hr{
+.box-home-hr {
     width: 580px;
     height: 165px;
-    background: radial-gradient( ellipse at 25% 100%, rgba(255, 255, 255, 0) 30%, #5630C3 30%, #5630C3, #0225F3, #2AC3FC, #41C903, #FEF506, #FE9307, #FE080D 70%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) );
+    background: radial-gradient(ellipse at 25% 100%, rgba(255, 255, 255, 0) 30%, #5630C3 30%, #5630C3, #0225F3, #2AC3FC, #41C903, #FEF506, #FE9307, #FE080D 70%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
     position: absolute;
     top: 262px;
     left: 1px;
