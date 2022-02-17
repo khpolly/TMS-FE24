@@ -142,7 +142,8 @@ h6,
 .header {
     display: block;
     margin: auto;
-    background-color: rgba(0, 0, 0, 1);
+    background-color:rgba(0, 0, 0, 1);
+    background-size: cover;
     position: relative;
     max-width: 1510px;
     /* position: fixed; */
@@ -382,6 +383,7 @@ h6,
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 64px;
     
 }
 .reviews__quote {
@@ -404,8 +406,21 @@ h6,
 
 /* examples of projects */
 .examples{
+    display: block;
     background: url(/img/desing.png) 50% 50% no-repeat;
     color: #fff;
+    background-size: cover;
+    max-width: 1510px;
+    background-position: center;
+}
+.examples__title{
+    display: flex;
+    justify-content: center;
+
+    width: 1170px;
+    height: 150px;
+    /* padding-top: 50px;
+    margin-bottom: 40px; */
 }
 
 
@@ -422,6 +437,6 @@ h6,
 .footer__list{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     
 }
