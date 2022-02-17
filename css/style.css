@@ -103,8 +103,8 @@ h6,
     font: 600 18px/25px 'Open Sans', sans-serif;
     color: #fff;
     text-decoration: none;
-    text-align: center;
-    cursor: pointer;
+    text-align:center ;
+    cursor:pointer;
     margin-bottom: 185px;
 }
 .btn2:hover{
@@ -432,11 +432,13 @@ h6,
     background-color: black;
     display: flex;
     justify-content: space-around;
+    max-width: 1510px;
 }
 
 .footer__list{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
+    
     
 }
