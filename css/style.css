@@ -137,6 +137,12 @@ h6,
     background-color: rgba(236, 121, 121, 1);
     box-shadow: 0 0 10 0;
 }
+.blockquote{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
 
 /* Header */
 .header {
@@ -222,8 +228,9 @@ h6,
 /* Main-banner */
 .main-banner {
     background: url(/img/background.png) 50% 50% no-repeat;
-    /* background-size: none; */
-    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    /* margin-bottom: 2px; */
 }
 .main-banner__info{
     display: flex;
@@ -232,7 +239,8 @@ h6,
 
 }
 .main-banner__img {
-    margin: 180px auto auto 170px;
+    /* margin: 180px auto auto 170px; */.
+    margin-top: 231px;
     
 }
 
@@ -298,11 +306,17 @@ h6,
 }
 
 /* Main-info */
+.main-info__box1{
+    display: inline-block
+    
+    /* outline: 2 px solid #C6CBCD; */
+}
 
 .main-info__bookmarks{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    
 }
 
 .main-info__tab_1 {
@@ -401,7 +415,12 @@ h6,
 .reviews__text {
     width: 370px;
     height: 180px;
-    
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+.reviews__item{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* examples of projects */
