@@ -246,9 +246,16 @@ h6,
 /* Main-banner */
 .main-banner {
     background: url(/img/background.png) 50% 50% no-repeat;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     margin-top: 0;
     margin-bottom: 2px;
+}
+
+.main-banner::after{
+    content: "";
+    background-color: #000000;
+    opacity: 0.5;
+    
+    
 }
 .main-banner__info{
     display: flex;
@@ -360,7 +367,7 @@ h6,
 }
 .main-info__box2{
     padding-left: 100px;
-    padding-top: ;
+    
     
 }
 
@@ -617,10 +624,10 @@ blockquote {
     /* display: block; */
     background: url(/img/desing.png) 50% 50% no-repeat;
     color: #fff;
-    background-size:contain;
+    background-size:cover;
     max-width: 1510px;
     height: 442px;
-
+    margin: 0 auto;
     background-position: center;
 }
 .examples__title{
@@ -638,11 +645,18 @@ blockquote {
 
 
 /* footer */
-.footer__box {
+.footer{
     background-color: black;
-    display: flex;
-    justify-content: space-around;
     max-width: 1510px;
+    width: 1510px;
+    margin: 0 auto;
+}
+.footer__box {
+    display: inline-block;
+    align-items: center;
+    width: 569px;
+    margin: auto 470px;
+
 }
 
 .footer__list{
