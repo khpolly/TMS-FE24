@@ -203,7 +203,26 @@ h6,
 .form2{
     width: 100%;
 }
+.form2-input{
+    width: 573px;
+    height: 3px;
+    font: 400 14px/19px "Open Sans",sans-serif ;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px 0;
+    background: none;
+    outline: none;
 
+}
+.form2__box{
+    display: flex;
+    flex-direction: row;
+}
+/* .form2-contact{
+    display: flex;
+    flex-direction: row;
+} */
 /* Header */
 .header {
     display: block;
