@@ -105,9 +105,9 @@ h6,
     font: 600 18px/25px 'Open Sans', sans-serif;
     color: #fff;
     text-decoration: none;
-    text-align:center ;
-    cursor:pointer;
-    m
+    text-align: center;
+    cursor: pointer;
+    border:none;
 }
 .btn2:hover{
     background-color: rgba(171, 73, 73, 1);
@@ -146,8 +146,8 @@ h6,
     border-radius: 10px;
 }
 .form1__box{
-    width: 470px;
-    height: 450px;
+    width: 100%;
+    
     
 }
 .form1{
@@ -164,6 +164,7 @@ h6,
 .form1__title{
     width: 367px;
     height: 90px;
+    text-transform: uppercase;
 }
 .form1-inner{
     padding: 30px 50px 75px;
@@ -198,6 +199,9 @@ h6,
 .form1__btn2{
     width: 100%;
 
+}
+.form2{
+    width: 100%;
 }
 
 /* Header */
