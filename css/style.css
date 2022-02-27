@@ -466,8 +466,9 @@ em{
 
 /* Main-info */
 .main-info__tabs{
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: auto;
     width: 569px;
     /* padding-left: 75px; */
@@ -478,6 +479,7 @@ em{
     height: 19px;
     align-items: center;
     font: 400 14px/19px 'Open Sans', sans-serif;
+    color: black;
     text-transform: uppercase;
 
 }
@@ -485,10 +487,11 @@ em{
     display: flex;
     justify-content: center;
     border: 1px solid #C6CBCD;
-    border-bottom: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    border-radius: 5px;
     width: 201px;
     padding: 10px;
-    margin-bottom: 0;
+    margin-bottom: -2px;
     margin-left: 0;
     
 }
@@ -652,6 +655,11 @@ em{
 .price__table{
     padding: 2px;
     background-color: #fff;
+    
+}
+.main__card{
+    position: relative;
+    top: -30px;
 }
 .price__name{
     width: 1170px;
@@ -663,6 +671,7 @@ em{
 }
 .price__dsc {
     margin-top: 40px;
+    margin-bottom: 59px;
     color: rgba(134, 135, 139, 1);
 }
 .price__boxes {
@@ -697,7 +706,9 @@ em{
     color: #fff;
 }
 .table__dsc {
-    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
