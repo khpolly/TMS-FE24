@@ -6,6 +6,7 @@
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative;
 }
 
 html,
@@ -150,6 +151,9 @@ h6,
     
     
 }
+em{
+    color: red;
+}
 .form1{
     width: 470px;
     background-color: #fff;
@@ -157,8 +161,9 @@ h6,
     overflow: hidden;
     background-color: #F5F5F5;
     position: absolute;
+    z-index: 3;
     top: 239px;
-    right: 153px;
+    right: 25px;
     
 }
 .form1__title{
@@ -203,6 +208,9 @@ h6,
 .form2{
     width: 100%;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .form2-input{
     width: 573px;
@@ -214,13 +222,18 @@ h6,
     padding: 15px 0;
     background: none;
     outline: none;
+    
 
 }
 .form2__box{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     
+    
+}
+.form-left1{
+    padding-bottom: 109px;
 }
 .form2__btn2{
     width: 370px;
@@ -228,6 +241,19 @@ h6,
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+.form2-input:focus{
+    border-color: black;
+}
+.form2-input:hover{
+
+}
+.form2-input:disabled{
+
+}
+.form2-input::placeholder{
+    color: rgba(189, 189, 189, 1);
+    ;
 }
 /* .form2-contact{
     display: flex;
@@ -456,9 +482,15 @@ h6,
 
 }
 .tab1{
-    /* border: 1px solid #C6CBCD;
-    border-bottom:#FFFFFF;
-     */
+    display: flex;
+    justify-content: center;
+    border: 1px solid #C6CBCD;
+    border-bottom: #FFFFFF;
+    width: 201px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    
 }
 
 .main-info{
@@ -568,11 +600,10 @@ h6,
     width: 100px;
 	height: 100px;
 	background:transparent;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
 	border-radius: 50px;
     border: 1px solid #EC7979;
     position: relative;
+    margin-bottom: 39px;
     
 
 }
@@ -614,11 +645,9 @@ h6,
 
 /* Price */
 .price{
+    width: 1510px;
     background-color: #F5F5F5;
-    margin-bottom: 50px;
-    margin-left: -170px;
-    margin-right: -170px;
-    /* max-width: 1170px; */
+    margin: 0 auto;
 }
 .price__table{
     padding: 2px;
