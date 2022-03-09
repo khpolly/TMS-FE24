@@ -16,7 +16,6 @@ body {
 
 body {
     font: 400 18px/21px 'Raleway', sans-serif;
-    background-color: #E5E5E5;
 }
 a{
     text-decoration: none;
@@ -371,8 +370,8 @@ em{
 
 .main-banner::before{
     content: "";
-    background-color: black;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0,5);
+    /* opacity: 0.5; */
     position: absolute;
     z-index: 2;
 }
@@ -415,15 +414,16 @@ em{
 
 /* contacts */
 .contacts{
+    width: 1510px;
     margin: 0 auto;
+    background-color: rgba(248, 239, 239, 1);
 }
 .contacts-box{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(248, 239, 239, 1);
     margin-bottom: 50px ;
     margin-left: -170px;
-    margin-right: -170px;
+    /* margin-right: -170px; */
 
 }
 .dsc-title{
@@ -453,10 +453,7 @@ em{
     align-items: center;
     width: 870px;
     padding-right: 170px;
-    margin-top: 43px;
-    
-    
-    
+    margin-top: 43px; 
 }
 
 
