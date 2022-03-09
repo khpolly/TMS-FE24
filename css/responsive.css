@@ -1,9 +1,24 @@
 @media only screen and (max-width: 1399px){
-    /* .container{
-        max-width: 992px;
-    } */
+  
 }
 @media only screen and (max-width: 1199px){
+    .conteiner{
+        max-width: 1024px;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .header{
+        display: block;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 1);
+    background-size: cover;
+    position: relative;
+    max-width: 1024px;
+    width:100%;
+    top:0;
+    left:0;
+    }
 
 }
 @media only screen and (max-width: 991px){
