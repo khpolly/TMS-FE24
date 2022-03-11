@@ -171,7 +171,10 @@ em{
     text-transform: uppercase;
 }
 .form1-inner{
-    padding: 30px 50px 75px;
+    padding: 30px 15px 75px;
+}
+.form2-inner{
+    padding: 30px 0px 75px;
 }
 .form__row+.form__row{
     margin-top: 15px;
@@ -228,6 +231,7 @@ em{
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
     
     
 }
@@ -574,8 +578,9 @@ em{
 .benefits__list {
     display: flex;
     justify-content: center;
-    margin-top: 110px;
-    margin-bottom: 110px;
+    gap: 30px;
+    /* margin-top: 110px;
+    margin-bottom: 110px; */
 }
 .elipse  {
     width: 100px;
@@ -655,9 +660,10 @@ em{
 .price__boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 30px;
+    /* justify-content: space-around;
     align-items: center;
-    margin-bottom: 110px;
+    margin-bottom: 110px; */
 
 
 }
@@ -715,6 +721,7 @@ em{
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 64px;
+    gap: 30px;
     
 }
 .reviews__quote {

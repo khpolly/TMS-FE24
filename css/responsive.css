@@ -1,19 +1,18 @@
 @media only screen and (max-width: 1399px){
-    /* body{
-        min-width: 1399px;
-        width: 100%;
-    } */
+   .header{
+      max-width: 1399px;
+   }
+   .header__logo{
+      margin: 0 auto;
+   }
+   .container{
+      max-width: 1200px;
+      padding: 0 5px;
+   }
     
    }
 @media only screen and (max-width: 1199px){
-    .container{
-        max-width: 980px;
-
-    }
-    body{
-        min-width: 1199px;
-        margin: 0 auto;
-    }
+    
 }
 @media only screen and (max-width: 991px){
 
