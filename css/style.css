@@ -65,6 +65,11 @@ h6,
     line-height: 18px;
     font-weight: 700;
 }
+.icon{
+    color: rgba(204, 204, 204, 1);
+    font-size: 50px;
+}
+
 /* Button */
 .btn1 {
     display: inline-block;
