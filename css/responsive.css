@@ -7,11 +7,25 @@
    }
    }
 @media only screen and (max-width: 1199px){
+   .reviews__text{
+      width: 350px;
+   }
 
+   .reviews__quote{
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+
+   .form2{
+      margin: 0 auto;
+   }
 
 
 }
 @media only screen and (max-width: 991px){
+   .main-info__img{
+      width: 100%;
+   }
 
 }
 @media only screen and (max-width: 767px){
