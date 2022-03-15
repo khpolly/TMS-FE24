@@ -84,6 +84,7 @@ h6,
     text-decoration: none;
     text-align: center;
     cursor: pointer;
+    text-transform: capitalize;
     
 }
 
