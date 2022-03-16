@@ -62,11 +62,74 @@
    .form-input{
       width: 298px;
       height: 19px;
+      padding: 38px 20px;
    }
-   
+   .form1-inner{
+      padding: 30px 15px 75px;
+   }
    .title4{
       font: 700 18px/25px 'Open sans', sans-serif;
    }
+   .title5{
+      font: 400 14px/16px 'Raleway', sans-serif;
+   }
+   .contacts__title {
+      width: 402px;
+      height: 45px;
+   }
+   .contacts__subtitle {
+      max-width: 402px;
+      height: 32px;
+   }
+   .dsc-title{
+      /* margin-left: 15px; */
+   }   
+   .contacts__list{
+      gap: 60px;
+   }
+   .contacts__address{
+      margin-right: 15px;
+   }
+   .fa-brands{
+      width: 15px;
+      height: 15px;
+   }
+.main-info{
+   margin-top: 89px;
+}
+.btn3{
+   width: 232px;
+   height: 58px;
+}
+.benefits__dsc {
+   max-width: 369px;
+   max-height: 100px;
+}
+.title3{
+   font: 700 18px/25px 'Open sans', sans-serif;
+}
+.title2{
+   font: 400 24px/28px 'Raleway', sans-serif;
+}
+.benefits__subtitle {
+   margin-bottom: 40px;
+}
+.table__main{
+   width: 318px;
+   height: 53px;
+}
+.price__dsc {
+   margin-top: 32px;
+   margin-bottom: 32px;
+}
+.price__boxes{
+   gap: 5px;
+}
+.reviews__text{
+   width: 318px;
+   height: 80px;
+}
+
 
 
 
