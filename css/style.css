@@ -152,9 +152,8 @@ h6,
     border-radius: 10px;
 }
 .form1__box{
-    width: 100%;
-    
-    
+    width: 470px;
+    height: 450px;
 }
 em{
     color: red;
@@ -474,6 +473,7 @@ em{
     justify-content: space-between;
     align-items: center;
     margin-bottom: auto;
+    margin-top: 138px ;
     max-width: 569px;
     /* padding-left: 75px; */
     
@@ -744,8 +744,8 @@ em{
 }
 blockquote {
     
-    width: 370px;
-    height: 180px;
+    max-width: 370px;
+    max-height: 180px;
     margin-right: 30px;
     
     
@@ -763,7 +763,7 @@ blockquote {
 }
 
 .reviews__text {
-    width: 370px;
+    max-width: 370px;
     min-height: 180px;
     padding-top: 38px;
     padding-bottom: 37px;
@@ -796,8 +796,8 @@ blockquote {
 
 }
 .reviews__name{
-    width: 269px;
-    height: 54px;
+    max-width: 269px;
+    max-height: 54px;
     margin-bottom: 15px;
 }
 
@@ -863,7 +863,7 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 569px;
+    max-width: 569px;
     margin: auto 300px;
 
 }

@@ -171,9 +171,9 @@
                     <h5 class="box1 benefits__subtitle title5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                 </div>
                 <div class="row">
-                    <div class="benefits__box row">
+                    <div class="benefits__box">
                         <ul class="benefits__list">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-md">
                                 <li class="benefits__item">
                                         <div class="elipse">
                                             <img src="/img/Vector-2.png" alt="Thoughtful Design 1" class="benefits__img1">
@@ -184,7 +184,7 @@
                                         viverra.</p>
                                 </li>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-s-6">
                                 <li class="benefits__item">
                                         <div class="elipse">
                                             <img src="/img/Vector-1.png" alt="Thoughtful Design 2"class="benefits__img2">
@@ -195,7 +195,7 @@
                                         viverra.</p>
                                 </li>
                             </div>
-                            <div class="col-xl-4  col-lg-4 col-md-4">
+                            <div class="col-xl-4  col-lg-4 col-md-4 col-s-6">
                                 <li class="benefits__item">
                                         <div class="elipse">
                                             <img src="/img/Vector.png" alt="Thoughtful Design 3"class="benefits__img3">
@@ -301,14 +301,15 @@
         <!--Price F-->
         <!--Reviews-->
         <section class="reviews">
-            <div class="container">
+            <div class="container container-md">
+
                 <div class="box1">
                     <h3 class="title2 reviews__title">what our customers are saying</h3>
                     <hr class="separator2">
                     <p class="reviews__dsc title5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="row">
-                    <div class="reviews__box">
+                        <div class="reviews__box">
                             <ul class="reviews__quote">
                                 <li class="reviews__item col-xl-4 col-lg-4 col-md-4">
                                     <div class="box2">
@@ -343,26 +344,29 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <li class="reviews__item col-xl-4 col-lg-4 col-md-4">
-                                            <div class="box2">
-                                                <blockquote class="reviews__text title5"> <p>Lorem ipsum dolor sit amet, 
-                                                    <br>consectetur adipisicing elit. Doloribus 
-                                                    <br>accusamus expedita repellat similique 
-                                                    <br>odio aspernatur ex, architecto eaque 
-                                                    <br>quo suscipit.</blockquote>
-                                                    <div class="trigon"></div>
-                                                    <div class="person">
-                                                        <img src="img/Ellipse7(2).jpg" alt="foto Cooper Dorwart" class="reviews__foto">
+                                </li>        
+                                    <li class="reviews__item col-xl-4 col-lg-4 col-md-4">
+                                        <div class="box2">
+                                            <blockquote class="reviews__text title5"> <p>Lorem ipsum dolor sit amet, 
+                                                <br>consectetur adipisicing elit. Doloribus 
+                                                <br>accusamus expedita repellat similique 
+                                                <br>odio aspernatur ex, architecto eaque 
+                                                <br>quo suscipit.</blockquote>
+                                                <div class="trigon"></div>
+                                                <div class="person">
+                                                    <img src="img/Ellipse7(2).jpg" alt="foto Cooper Dorwart" class="reviews__foto">
                                                         <div class="name-position">
                                                             <p class=" title4 reviews__name">Cooper Dorwart</p>
                                                             <p class="title5 reviews__post">Manager</p>
                                                         </div>
-                                                    </div>
+                                                </div>
                                             </div>
                                         </li>
                             </ul>
+                        </div>
                 </div>
-                    </div>
+            </div>
+            
                         </section>
         <!--Reviews F-->
         <!--examples of projects-->
@@ -386,24 +390,26 @@
                     <hr class="separator2">
                     <p class=" title5 contacts-form__dsc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <form class="form2 row">
-                    <div class="form2__box">
-                        <div class="form2-inner form2-contact col-xl-6">
-                            <div class="form__row">
-                                <input class="form2-input" type="text" placeholder="Name">
+                <form class="form2">
+                    <div class="row">
+                        <div class="form2__box">
+                            <div class="form2-inner form2-contact col-xl-6 col-lg-6 col-md-6">
+                                <div class="form__row">
+                                    <input class="form2-input" type="text" placeholder="Name">
+                                </div>
+                                <div class="form__row">
+                                    <input class="form2-input" type="email" placeholder="Email">
+                                </div>
+                                <div class="form__row">
+                                    <input class="form2-input" type="password" placeholder="Password">
+                                </div>
                             </div>
-                            <div class="form__row">
-                                <input class="form2-input" type="email" placeholder="Email">
-                            </div>
-                            <div class="form__row">
-                                <input class="form2-input" type="password" placeholder="Password">
+                            <div class="form2-inner form1__right col-xl-6 col-lg-6 col-md-6">
+                                <input class="form2-input form-left1" type="message" placeholder="Message">
                             </div>
                         </div>
-                        <div class="form2-inner form1__right col-xl-6">
-                            <input class="form2-input form-left1" type="message" placeholder="Message">
-                        </div>
+                        <button class="btn2 form2__btn2">Send Message</button>
                     </div>
-                    <button class="btn2 form2__btn2">Send Message</button>
                 </form>
             </div>
 
