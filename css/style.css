@@ -1,57 +1,13 @@
-*{
-    box-sizing: border-box;
-  }
-  
-  body {
-    font: 400 18px/21px 'Raleway', sans-serif;
-    background-color: #fff;
-  }
-  
-  .container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  /* Titles */
-  h1,
-  .title1 {
-    font-size: 64px;
-    line-height: 75px;
-    font-weight: 900;
-  }
-  
-  h2,
-  .title2 {
-    font-size: 36px;
-    line-height: 42px;
-    font-weight: 700;
-  }
-  
-  h3,
-  .title3 {
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 700;
-  }
-  
-  h4,
-  .title4 {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 900;
-  }
-  
-  h5,
-  .title5 {
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 400;
-  }
-  
-  
-  h6,
-  .title6 {
-    font-size: 13px;
-    line-height: 15px;
-    font-weight: 700;
-  }
+.box{
+  border: 3px solid rgb(31, 173, 76);
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 300px 300px 300px;
+  grid-row: auto;
+}
+
+.item{
+  background-color: #1f37ad;
+  min-height: 150px;
+
+}
