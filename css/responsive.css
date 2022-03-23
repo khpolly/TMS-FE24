@@ -17,7 +17,10 @@
    }
 
    .form2{
-      margin: 0 auto;
+      margin: 50px 15px;
+   }
+   .form2-input {
+      width: 530px;
    }
    .price__boxes {
       gap: 4px;
@@ -171,12 +174,56 @@
       width: 350px;
       height: 500px;
    }
+   .form1 {
+      width: 350px;
+      height: 475px;
+      top: 180px;
+      right: 40px;
+   }
    .main-banner__title {
       width: 235px;
       height: 120px;
    }
    .title1{
       font: 500 24px/32px'Raleway',sans-serif;
+   }
+   .dsc-title {
+      margin-right: -50px;
+   }
+   .contacts__subtitle {
+      max-width: 330px;
+   }
+   .fa-brands .fa-rss {
+      width: 10px;
+      height: 10px;
+   }
+   .contacts__list {
+      gap: 40px;
+   }
+   .main-info__box {
+      height: 370px;
+   }
+   
+   .tab1{
+      width: 90px;
+      padding: 8px;
+   }
+   .main-info__tabs{
+      width: 320px;
+   }
+   .main-info__title{
+      width: 295px;
+      padding-top: 25px;
+   }
+   .main-info__box2 {
+      padding-left: 25px;
+   }
+   .main-info__text {
+      width: 330px;
+      height: 145px;
+   }
+   .box1{
+      margin-bottom: 25px;
    }
 
    .benefits__list {
@@ -189,7 +236,10 @@
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      margin-bottom: 110px;
+      margin-bottom: -15px;
+   }
+   .table__box{
+      margin-bottom: 0;
    }
    .main__card {
       top: 0px;
@@ -197,7 +247,14 @@
    .reviews__quote{
       flex-wrap: wrap;
    }
+   .form2-input{
+      max-width: 365px;
+   }
+   .footer__autor{
+      width: 150px;
+   }
 }
 @media only screen and (max-width: 575px){
+   
 
 }
