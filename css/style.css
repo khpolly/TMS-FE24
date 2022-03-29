@@ -216,12 +216,13 @@ em{
 .header {
     background-color:rgba(0, 0, 0, 1);
     background-size: cover;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 0;
     left: 0;
     z-index: 50;
     max-width: 1510px;
+    margin: 0 auto;
 }
 
 .header::before{
@@ -348,6 +349,8 @@ em{
     text-align: left;
     padding: 231px 0 185px;
     color: white;
+    margin: 0 auto;
+    max-width: 1510px;
 }
 
 
@@ -480,13 +483,19 @@ em{
     width: 470px;
     height: 60px;
     margin-bottom: 18px;
-    
 }
 .contacts__subtitle {
-    max-width: 470px;
+    width: 470px;
     height: 42px;
     color: rgba(134, 135, 139, 1);
     
+}
+.contacts__address{
+    margin-left: 50px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
 }
 
 .contacts__list {
@@ -510,6 +519,7 @@ em{
     /* padding-left: 75px; */
     
 }
+
 .main-info__tab {
     width: 39px;
     height: 19px;
@@ -517,7 +527,9 @@ em{
     font: 400 14px/19px 'Open Sans', sans-serif;
     color: black;
     text-transform: uppercase;
-
+}
+.main-info__tab> a{
+    text-decoration: none;
 }
 .tab1{
     display: flex;
@@ -554,10 +566,7 @@ em{
     justify-content: space-between;
 }
 
-.main-info__tab_1 {
-    order: 1;
 
-}
 .main-info__box{
     display: flex;
     justify-content: space-between;
@@ -768,6 +777,7 @@ em{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .reviews__foto {
@@ -906,11 +916,11 @@ blockquote {
     width: 545px;
     /* margin: 0 auto; */
     margin-top: 42px;
-    margin-bottom: 47px;
+    margin-bottom: 32px;
     
     
 }
 .footer__autor{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 15px;
 }
