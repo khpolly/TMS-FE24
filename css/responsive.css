@@ -1,231 +1,279 @@
-@media only screen and (max-width: 1399px){
-   .header__logo{
+@media only screen and (max-width: 1399px) {
+   .header__logo {
       margin-left: 15px;
    }
-   .contacts{
+
+   .contacts {
       width: 100%;
    }
-   }
-@media only screen and (max-width: 1199px){
-   .reviews__text{
+}
+
+@media only screen and (max-width: 1199px) {
+   .reviews__text {
       width: 350px;
    }
 
-   .reviews__quote{
+   .reviews__quote {
       margin-left: 15px;
       margin-right: 15px;
    }
 
-   .form2{
+   .form2 {
       margin: 50px 15px;
    }
+
    .form2-input {
       width: 530px;
    }
+
    .price__boxes {
       gap: 4px;
    }
+
    .table__main {
       width: 391px;
       height: 53px;
 
 
-}
-@media only screen and (max-width: 991px){
-   .main-banner__img{
-      width: 183px;
-      height: 75px;
-      margin-top: 154px;
-      margin-bottom: 54px;
-   }
-   .title1{
-      font: 500 36px/42px'Raleway',sans-serif;
-   }
-   .main-banner__title{
-      width: 454px;
-      height: 165px;
-      margin-bottom: 41px;
-   }
-   .main-banner__text{
-      font: 400 14px/16px 'Raleway', sans-serif;
-   }
-   .btn1{
-      width: 183px;
-      height: 50px;
-   }
-   .box3{
-      margin-bottom: 132px;
-   }
-   .form1{
-      width: 398px;
-      height: 450px;
-      top: 137px;
-      right: 20px;
-
-   }
-   .form1__title {
-      max-width: 298px;
-      max-height: 90px;
-      margin: 0 50px;
-   }
-   .form-input{
-      width: 298px;
-      height: 19px;
-      padding: 38px 20px;
-   }
-   .form1-inner{
-      padding: 30px 15px 75px;
-   }
-   .title4{
-      font: 700 18px/25px 'Open sans', sans-serif;
-   }
-   .title5{
-      font: 400 14px/16px 'Raleway', sans-serif;
-   }
-   .contacts__title {
-      width: 402px;
-      height: 45px;
-   }
-   .contacts__subtitle {
-      max-width: 402px;
-      height: 32px;
-   }
-   .dsc-title{
-      /* margin-left: 15px; */
-   }   
-   .contacts__list{
-      gap: 60px;
-   }
-   .contacts__address{
-      margin-right: 15px;
-      margin-left: 50px;
-   }
-   .fa-brands{
-      width: 15px;
-      height: 15px;
-   }
-.main-info{
-   margin-top: 89px;
-}
-.main-info__tabs{
-   margin-top: -25px;
-}
-.main-info__text {
-   width: 483px;
-   height: 112px;
-}
-.main-info__img{
-   width: 100%;
-}
-
-.btn3{
-   width: 232px;
-   height: 58px;
-}
-.benefits__dsc {
-   max-width: 369px;
-   max-height: 100px;
-}
-.title3{
-   font: 700 18px/25px 'Open sans', sans-serif;
-}
-.title2{
-   font: 400 24px/28px 'Raleway', sans-serif;
-}
-.benefits__subtitle {
-   margin-bottom: 40px;
-}
-.table__main{
-   width: 318px;
-   height: 53px;
-}
-.price__dsc {
-   margin-top: 32px;
-   margin-bottom: 32px;
-}
-.price__boxes{
-   gap: 5px;
-}
-.reviews__text{
-   width: 318px;
-   height: 80px;
-}
-.form2-input{
-   width: 486px;
-   height: 3px;
-   padding-bottom: 85px;
-}
-.form2{
-   margin: 50px 10px;
-}
-.form-left1{
-   padding-right: 85px;
-}
-.form1__box{
-   width: 398px;
-   height: 450px;
-}
-
-}
-@media only screen and (max-width: 767px){
-   body.lock{
-		overflow: hidden;
-	}
-   .header
-      
-   
-   .header__body{
-      height: 56px;
    }
 
-   .header__burger{
-      display: block;
-      position: relative;
-      width: 24px;
-      height: 18px;
-      position: relative;
-      z-index: 3;
+   @media only screen and (max-width: 991px) {
+      .main-banner {
+         padding: 0;
+      }
+
+      .main-banner__img {
+         width: 183px;
+         height: 75px;
+         margin-top: 154px;
+         margin-bottom: 54px;
+      }
+
+      .title1 {
+         font: 500 36px/42px'Raleway', sans-serif;
+      }
+
+      .main-banner__title {
+         width: 454px;
+         height: 165px;
+         margin-bottom: 41px;
+      }
+
+      .main-banner__text {
+         font: 400 14px/16px 'Raleway', sans-serif;
+      }
+
+      .btn1 {
+         width: 183px;
+         height: 50px;
+      }
+
+      .box3 {
+         margin-bottom: 132px;
+      }
+
+      .form1 {
+         width: 398px;
+         height: 450px;
+         top: 137px;
+         right: 20px;
+
+      }
+
+      .form1__title {
+         max-width: 298px;
+         max-height: 90px;
+         margin: 0 50px;
+      }
+
+      .form-input {
+         width: 298px;
+         height: 19px;
+         padding: 38px 20px;
+      }
+
+      .form1-inner {
+         padding: 30px 15px 75px;
+      }
+
+      .title4 {
+         font: 700 18px/25px 'Open sans', sans-serif;
+      }
+
+      .title5 {
+         font: 400 14px/16px 'Raleway', sans-serif;
+      }
+
+      .contacts__title {
+         width: 402px;
+         height: 45px;
+      }
+
+      .contacts__subtitle {
+         max-width: 402px;
+         height: 32px;
+      }
+
+      .dsc-title {
+         /* margin-left: 15px; */
+      }
+
+      .contacts__list {
+         gap: 60px;
+      }
+
+      .contacts__address {
+         margin-right: 15px;
+         margin-left: 150px;
+      }
+
+      .fa-brands {
+         width: 15px;
+         height: 15px;
+      }
+
+      .main-info {
+         margin-top: 89px;
+      }
+
+      .main-info__tabs {
+         margin-top: -25px;
+      }
+
+      .main-info__text {
+         width: 483px;
+         height: 112px;
+      }
+
+      .main-info__img {
+         width: 100%;
+      }
+
+      .btn3 {
+         width: 232px;
+         height: 58px;
+      }
+
+      .benefits__dsc {
+         max-width: 369px;
+         max-height: 100px;
+      }
+
+      .title3 {
+         font: 700 18px/25px 'Open sans', sans-serif;
+      }
+
+      .title2 {
+         font: 400 24px/28px 'Raleway', sans-serif;
+      }
+
+      .benefits__subtitle {
+         margin-bottom: 40px;
+      }
+
+      .table__main {
+         width: 318px;
+         height: 53px;
+      }
+
+      .price__dsc {
+         margin-top: 32px;
+         margin-bottom: 32px;
+      }
+
+      .price__boxes {
+         gap: 5px;
+      }
+
+      .reviews__text {
+         width: 318px;
+         height: 80px;
+      }
+
+      .form2-input {
+         width: 486px;
+         height: 3px;
+         padding-bottom: 85px;
+      }
+
+      .form2 {
+         margin: 50px 10px;
+      }
+
+      .form-left1 {
+         padding-right: 85px;
+      }
+
+      .form1__box {
+         width: 398px;
+         height: 450px;
+      }
+
    }
-   .header__burger span{
-		position: absolute;
-		background-color: #fff;
-		position: absolute;
-		left: 0;
-		width: 100%;
-		height: 2px;
-		top: 9px;
-		transition: all 0.3s ease 0s;
-	}
-	.header__burger:before,
-	.header__burger:after{
-		content: '';
-		background-color: #fff;
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		left: 0;
-		transition: all 0.3s ease 0s;
-	}
-	.header__burger:before{
-		top: 0;
-	}
-	.header__burger:after{
-		bottom: 0;
-	}
 
-	.header__burger.active span{
-		transform: scale(0);
-	}
+   @media only screen and (max-width: 767px) {
+      body.lock {
+         overflow: hidden;
+      }
 
-	.header__burger.active:before{
-		transform:rotate(45deg);
-		top: 9px;
-	}
-	.header__burger.active:after{
-		transform:rotate(-45deg);
-		bottom: 9px;
-	}
-   /* .header__burger span {
+      .header .header__body {
+         height: 56px;
+      }
+
+      .header__burger {
+         display: block;
+         position: relative;
+         width: 24px;
+         height: 18px;
+         position: relative;
+         z-index: 3;
+      }
+
+      .header__burger span {
+         position: absolute;
+         background-color: #fff;
+         position: absolute;
+         left: 0;
+         width: 100%;
+         height: 2px;
+         top: 9px;
+         transition: all 0.3s ease 0s;
+      }
+
+      .header__burger:before,
+      .header__burger:after {
+         content: '';
+         background-color: #fff;
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         left: 0;
+         transition: all 0.3s ease 0s;
+      }
+
+      .header__burger:before {
+         top: 0;
+      }
+
+      .header__burger:after {
+         bottom: 0;
+      }
+
+      .header__burger.active span {
+         transform: scale(0);
+      }
+
+      .header__burger.active:before {
+         transform: rotate(45deg);
+         top: 9px;
+      }
+
+      .header__burger.active:after {
+         transform: rotate(-45deg);
+         bottom: 9px;
+      }
+
+      /* .header__burger span {
       position: absolute;
       background-color: #fff;
       position: absolute;
@@ -256,162 +304,182 @@
       bottom: 0;
       transition: all 0.3s ease 0s;
    } */
-   .header__nav{
-      position: fixed;
-		top: -100%;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		overflow: auto;
-		transition: all 0.3s ease 0s;
-		padding: 70px 10px 20px 10px;
-      background-color:black;
-      color: #fff;
-   }
+      .header__nav {
+         position: fixed;
+         top: -100%;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         overflow: auto;
+         transition: all 0.3s ease 0s;
+         padding: 70px 10px 20px 10px;
+         background-color: black;
+         color: #fff;
+      }
 
-   
+      .header__logo .header__menu {
+         display: block;
+         position: relative;
+      }
 
+      .header__menu.active {
+         top: 0;
+      }
 
-
-   .header__logo
-
-   .header__menu{
-      display: block;
-      position: relative;
-   }
-   .header__menu.active{
-		top: 0;
-	}
-   .header__menu li{
-      margin: 0px 0px 20px 0px;
-   }
-  
-      
-   
-
-
-
-   .menu__item
+      .header__menu li {
+         margin: 0px 0px 20px 0px;
+      }
 
 
 
 
 
 
-   .menu__link{
-      min-width: 80px;
-   }
-   .form1__box {
-      width: 350px;
-      height: 500px;
-   }
-   .form1 {
-      width: 350px;
-      height: 475px;
-      top: 180px;
-      right: 40px;
-   }
-   .main-banner{
-      padding: 50px 0 40px;
-   }
-   .main-banner__title {
-      width: 235px;
-      height: 120px;
-   }
-   .title1{
-      font: 500 24px/32px'Raleway',sans-serif;
-   }
-   .dsc-title {
-      margin-right: -50px;
-   }
-   .contacts__subtitle {
-      max-width: 330px;
-   }
-   .fa-brands .fa-rss {
-      width: 10px;
-      height: 10px;
-   }
-   .contacts-box {
-      flex-wrap: wrap;
-   }
-   .contacts__list {
-      gap: 40px;
-   }
-   .main-info__box {
-      height: 370px;
-   }
-   
-   .tab1{
-      width: 90px;
-      padding: 8px;
-   }
-   .main-info__tabs{
-      width: 320px;
-   }
-   .main-info__title{
-      width: 295px;
-      padding-top: 25px;
-   }
-   .main-info__box2 {
-      padding-left: 25px;
-   }
-   .main-info__text {
-      width: 330px;
-      height: 145px;
-   }
-   .box1{
-      margin-bottom: 25px;
+      .menu__item .menu__link {
+         min-width: 80px;
+      }
+
+      .form1__box {
+         width: 350px;
+         height: 500px;
+      }
+
+      .form1 {
+         width: 350px;
+         height: 475px;
+         top: 180px;
+         right: 40px;
+      }
+
+      .main-banner {
+         padding: 50px 0 40px;
+      }
+
+      .main-banner__title {
+         width: 235px;
+         height: 120px;
+      }
+
+      .title1 {
+         font: 500 24px/32px'Raleway', sans-serif;
+      }
+
+      .dsc-title {
+         margin-right: -50px;
+      }
+
+      .contacts__subtitle {
+         max-width: 330px;
+      }
+
+      .fa-brands .fa-rss {
+         width: 8px;
+         height: 8px;
+      }
+
+      .contacts-box {
+         flex-wrap: wrap;
+         margin: 0 auto 35px;
+      }
+
+      .contacts__list {
+         gap: 60px;
+         margin-top: -8px;
+      }
+
+      .main-info__box {
+         height: 370px;
+      }
+
+      .tab1 {
+         width: 90px;
+         padding: 8px;
+      }
+
+      .main-info__tabs {
+         width: 320px;
+      }
+
+      .main-info__title {
+         width: 295px;
+         padding-top: 25px;
+      }
+
+      .main-info__box2 {
+         padding-left: 25px;
+      }
+
+      .main-info__text {
+         width: 330px;
+         height: 145px;
+      }
+
+      .box1 {
+         margin-bottom: 25px;
+      }
+
+      .benefits__list {
+         flex-wrap: wrap;
+      }
+
+      .price__boxes {
+         display: flex;
+         flex-direction: row;
+         gap: 30px;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+         margin-bottom: -15px;
+      }
+
+      .table__box {
+         margin-bottom: 0;
+      }
+
+      .main__card {
+         top: 0px;
+      }
+
+      .reviews__quote {
+         flex-wrap: wrap;
+      }
+
+      .form2-input {
+         max-width: 365px;
+      }
+
+      .footer__autor {
+         width: 150px;
+      }
    }
 
-   .benefits__list {
-      flex-wrap: wrap;
-   }
-   .price__boxes {
-      display: flex;
-      flex-direction: row;
-      gap: 30px;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      margin-bottom: -15px;
-   }
-   .table__box{
-      margin-bottom: 0;
-   }
-   .main__card {
-      top: 0px;
-   }
-   .reviews__quote{
-      flex-wrap: wrap;
-   }
-   .form2-input{
-      max-width: 365px;
-   }
-   .footer__autor{
-      width: 150px;
-   }
-}
+   @media only screen and (max-width: 575px) {
+      .container {
+         max-width: 540px;
+      }
 
-@media only screen and (max-width: 575px){
-   .container{
-      max-width: 540px;
-   }
-   
-   
+      .main-banner {
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .form1 {
+         width: 288px;
+      }
 
 
 
+      .banner-box {
+         display: flex;
+         flex-direction: column;
+      }
 
+      .contacts-box {
+         flex-direction: column;
+      }
 
-
-   .banner-box{
-      display: flex;
-      flex-direction: column;
+      .main-info__img {
+         display: none;
+      }
    }
-   .contacts-box{
-      flex-direction: column;
-   }
-   .main-info__img{
-      display: none;
-   }
-}
