@@ -2,123 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e84698f-9574-457c-9795-ae5c74fa4869" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ToDo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDoItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TMS-FE24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/Raleway-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Ellipse 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Ellipse7(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Ellipse7(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Ellipse7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Rectangle111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Vector-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Vector-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Vector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/facebook_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/github_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/instagram_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/linkedin_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/pinterest_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/rss_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacts/twitter_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/desing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/facebook_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/github_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/instagram_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/linkedin_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/pinterest_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/rss_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/twitter_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sm7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +126,7 @@
       <workItem from="1656349040565" duration="2111000" />
       <workItem from="1656428983042" duration="11475000" />
       <workItem from="1657037486571" duration="4375000" />
-      <workItem from="1657555594405" duration="88000" />
+      <workItem from="1657555594405" duration="1955000" />
     </task>
     <servers />
   </component>
