@@ -36,12 +36,12 @@ module.exports = {
                 use: ["style-loader", "css-loader"],
             },
         ]
-    }
+    },
     resolve: {
         modules: [
             path.resolve(__dirname, 'src'),
             path.resolve(__dirname,'node_modules'),
         ],
-        extensions: ['.web.js', 'mjs', '.js', '.ts', '.json', '.web.jsx', '.jsx', '.tsx'],
+        extensions: ['.json', '.js', '.jsx'],
     },
 }

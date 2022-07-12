@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e84698f-9574-457c-9795-ae5c74fa4869" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scripts/concatenate.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constanante.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +76,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Google Drive\TMS\HW3\src" />
+      <recent name="C:\Google Drive\TMS\HW3\src\scripts" />
       <recent name="C:\Google Drive\TMS\HW3\src\Components" />
+      <recent name="C:\Google Drive\TMS\HW3\src" />
       <recent name="C:\Google Drive\TMS\HW3\public" />
       <recent name="C:\Google Drive\TMS\HW3" />
     </key>
@@ -126,7 +133,8 @@
       <workItem from="1656349040565" duration="2111000" />
       <workItem from="1656428983042" duration="11475000" />
       <workItem from="1657037486571" duration="4375000" />
-      <workItem from="1657555594405" duration="1955000" />
+      <workItem from="1657555594405" duration="3965000" />
+      <workItem from="1657639829747" duration="7058000" />
     </task>
     <servers />
   </component>
