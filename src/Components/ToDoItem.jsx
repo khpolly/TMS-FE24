@@ -3,10 +3,18 @@ import React from "react";
 import styled from 'styled-components'
 
 const StyleToDoItem = styled.div`
-  width: 100%;
+  width: 920px;
   height: 40px;
   margin: 10px;
-  border: solid 2px black;
+  border: solid 2px ;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+
+  .todo-item{
+    font-size: 16px;
+    margin-left: 10px;
+  }
   
   
   
