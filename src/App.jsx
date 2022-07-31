@@ -1,11 +1,19 @@
-// node module
-import React from "react";
-
-  //components
-//тут импорт компонентов
-
-// assets / helpers
-// тут остальной импорт
+import React, {useState} from 'react';
+import MainLayout from "./Layouts/MainLayout";
 
 
-export default App
+
+const App = (props) => {
+    const [someText, setSomeText] = useState("Hello world");
+
+    return (
+        <MainLayout>
+            <div onClick={() => {setSomeText("fooo")}}>
+                {someText}
+                {props.someName}
+            </div>
+        </MainLayout>
+    )
+}
+
+export default App;
