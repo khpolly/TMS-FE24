@@ -1,18 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import {Outlet} from "react-router-dom";
 
 
 const StyledMainLayout = styled.div`
   .header {
     width: 100%;
     height: 50px;
-    background-color: aquamarine;
+    background-color:  ${props => props.theme.accentBackgroundColor};
   }
   .content {
     width: 100%;
     height: calc(100vh - 70px);
     overflow: auto;
-    background-color: antiquewhite;
+    background-color: ${props => props.theme.baseBackgroundColor};
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -22,21 +23,21 @@ const StyledMainLayout = styled.div`
   .footer {
     width: 100%;
     height: 20px;
-    background-color: aquamarine;
+    background-color: ${props => props.theme.accentBackgroundColor};
   }
 `
 const MainLayout =(props) => {
     return (
         <StyledMainLayout>
-            <div className={'header'}>
+            <header className={'header'}>
 
-            </div>
-            <div className={'content'}>
+            </header>
+            <main className={'content'}>
                 {props.children}
-            </div>
-            <div className={'footer'}>
-
-            </div>
+                <Outlet/>
+            </main>
+            <footer className={'footer'}>
+            </footer>
         </StyledMainLayout>
     )
 };

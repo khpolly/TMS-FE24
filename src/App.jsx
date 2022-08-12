@@ -1,18 +1,25 @@
-import React, {useState} from 'react';
-import MainLayout from "./Layouts/MainLayout";
-
+import React, {useContext, useState} from 'react';
+import GlobalThemeWrapper from "./HOC/GlobalThemeWrapper";
+import {BrowserRouter} from "react-router-dom";
+import RootRouter from "./Routes/RootRouter";
+import {Provider} from "react-redux";
+import {store} from "./store/initstore";
 
 
 const App = (props) => {
-    const [someText, setSomeText] = useState("Hello world");
 
     return (
-        <MainLayout>
-            <div onClick={() => {setSomeText("fooo")}}>
-                {someText}
-                {props.someName}
-            </div>
-        </MainLayout>
+        <BrowserRouter>
+            <Provider store={store}>
+                <GlobalThemeWrapper>
+                    <RootRouter/>
+                </GlobalThemeWrapper>
+            </Provider>
+
+
+        </BrowserRouter>
+
+
     )
 }
 
