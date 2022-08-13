@@ -7,7 +7,8 @@ import FormikInput from "../Components/FormikFields/formikInput";
 
 const StyledPlan = styled.div`
     .month {
-      min-width: 1200px;
+      min-width: 90vh;
+      max-width: 1200px;
       width: 100%;
       
       .month_header {
@@ -79,7 +80,9 @@ const Plan = () => {
                                                         </button>
                                                         {values.expenses.map((expense, expenseIndex) => (
                                                             <div>
+                                                                Target
                                                                 <FormikInput name={`expenses ${expenseIndex}.name`}/>
+                                                                Value
                                                                 <FormikInput name={`expenses ${expenseIndex}.amount`} type={"number"}/>
                                                                 <button type="button"
                                                                         onClick={() => {
@@ -150,7 +153,7 @@ const Plan = () => {
           <button type={"button"}
                   onClick={() =>{
                       const newMonths = [...months];
-                      newMonths.push({name:`month ${newMonths.length + 1}`, expenses:[], income:[]});
+                      newMonths.push({name:`month ${newMonths.length + 1}`, expenses:[], incomes:[]});
                       setMonths(newMonths);
                   }}>
             Add month
